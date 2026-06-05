@@ -1,12 +1,27 @@
-
 # Virtual environments
 fastapienv/
 venv/
-.env/
+env/
+myenv/
+
+# Environment variables
+.env
+*.env
+
+# LangChain / local project folders
+langchain/
 
 # Python cache
 __pycache__/
 *.pyc
+*.pyo
 
 # Jupyter
 .ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
